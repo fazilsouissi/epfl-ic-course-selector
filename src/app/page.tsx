@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, Suspense } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 
 import CourseForm from '@/components/CourseForm'
@@ -34,7 +34,7 @@ const getLocalSortBy = (): string => {
   return saved ? JSON.parse(saved) : 'Sort by Credits'
 }
 
-export default function Home() {
+function HomeContent() {
   const { layout } = useTheme()
   const searchParams = useSearchParams()
   const router = useRouter()
@@ -378,5 +378,13 @@ export default function Home() {
         </main>
       </div>
     </div>
+  )
+}
+
+export default function Home() {
+  return (
+    <Suspense fallback={<div className="flex items-center justify-center min-h-screen">Loading...</div>}>
+      <HomeContent />
+    </Suspense>
   )
 }
