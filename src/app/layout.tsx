@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "@/context/ThemeContext";
 
@@ -24,8 +25,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <Script id="theme-init" strategy="beforeInteractive">
+          {`
+            (function () {
+              try {
+                var pref = localStorage.getItem('app-theme') || 'system';
+                var isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var resolved = (pref === 'system') ? (isDark ? 'dark' : 'light') : pref;
+                document.documentElement.setAttribute('data-theme', resolved);
+                document.documentElement.setAttribute('data-theme-preference', pref);
+              } catch (e) {}
+            })();
+          `}
+        </Script>
+      </head>
       <body
+        suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider>

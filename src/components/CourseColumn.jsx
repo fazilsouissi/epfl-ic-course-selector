@@ -57,7 +57,7 @@ const CourseColumn = ({
     switch (layout) {
       case 'kanban':
         return {
-          section: `${baseSection} w-[320px] min-w-[320px] h-full p-4`,
+          section: `${baseSection} min-w-[300px] flex-1 h-full p-4`,
           title: baseTitle,
           list: baseList
         };

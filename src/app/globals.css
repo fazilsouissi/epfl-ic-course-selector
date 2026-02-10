@@ -2,6 +2,10 @@
 
 @plugin "tailwindcss-animate";
 
+/* Tie Tailwind's `dark:` variant to our single source of truth: `html[data-theme="dark"]`.
+   This avoids accidental activation if any nested element happens to have a `dark` class. */
+@custom-variant dark (&:where(html[data-theme="dark"], html[data-theme="dark"] *));
+
 :root {
   --background: 0 0% 100%;
   --foreground: 0 0% 3.6%;
