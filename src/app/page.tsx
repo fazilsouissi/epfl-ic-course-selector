@@ -88,12 +88,15 @@ export default function Home() {
   }
 
   const autoPlaceMandatoryCourses = () => {
-    const mandatoryCourses: Record<string, CourseInfo> = {}
+    const mandatoryCourses: Record<string, CourseInfo> = { ...sharedCourses }
 
     Object.entries(coursesData).forEach(([courseName, courseInfo]) => {
-      // Place mandatory courses (blocks A, B, C, SHS)
+      // Place mandatory courses (blocks A, B, C, SHS) only if not already present
       if (courseInfo.block && ['A', 'B', 'C', 'SHS'].includes(courseInfo.block) && courseInfo.ba) {
-        mandatoryCourses[courseName] = courseInfo
+        // Check if course is not already placed in any BA column
+        if (!sharedCourses[courseName]) {
+          mandatoryCourses[courseName] = courseInfo
+        }
       }
     })
 
