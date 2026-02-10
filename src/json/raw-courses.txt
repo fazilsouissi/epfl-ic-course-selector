@@ -1,0 +1,206 @@
+6
+					
+7
+	Code	Titre du cours	Section	Semestre	Crédits
+8
+	BIO-311	Neuroscience	SV	Automne	4
+9
+	BIO-369	Randomness and information in biological data	SV	Printemps	4
+10
+	CH-210	Biochimie	CGC	Automne	3
+11
+	EE-312	Analyse matricielle	EL	Printemps	4
+12
+	EE-348	Electroacoustique	EL	Automne	3
+13
+	EE-390(a)	Lab on hardware-software digital systems codesign	EL	Printemps	3
+14
+	ENV-361	Aménagement et gestion du territoire	SIE	Printemps	3
+15
+	ENV-342	Systèmes d'Information Géorgraphique (SIG)	SIE	Printemps	5
+16
+	ENV-341	Télédétection	SIE	Printemps	3
+17
+	MATH-351	Advanced numerical analysis II	MA	Automne	5
+18
+	
+MATH-251(a)
+	Numerical analysis	MA	Automne	3
+19
+	
+MATH-251(b)
+	Numerical analysis	GM	Printemps	4
+20
+	MATH-337	Number theory I.c - Combinatorial number theory	MA	Automne	5
+21
+	MATH-261	Discrete optimization	MA	Printemps	5
+22
+	MATH-360	Graph theory	MA	Automne	5
+23
+	MATH-313	Number theory I.b - Analytic number theory	MA	Automne	5
+24
+	MATH-341	Linear models	MA	Automne	5
+25
+	MATH-381	Logique mathématique	MA	Automne	5
+26
+	MATH-220	Topologie I - topologie générale	MA	Automne	5
+27
+	MATH-240	Statistique	MA	Printemps	5
+28
+	MATH-211	Algebra II - groups	MA	Automne	5
+29
+	MATH-342	Time series	MA	Printemps	5
+30
+	MATH-352	Causal thinking	MA	Automne	5
+31
+	ME-326	Automatique et commande numérique	MT	Automne	6
+32
+	ME-221	Dynamical systems	GM	Printemps	3
+33
+	ME-303	Microinformatique (pour GM)	GM	Printemps	4
+34
+	MGT-642 (b)	Innosuisse Business Concept (Spring)		Printemps	4
+35
+	MICRO-210	Microcontrôleurs	MT	Printemps	3
+36
+	MSE-212	Biologie pour ingénieurs	MX	Printemps	2
+37
+	PHYS-324	Classical electrodynamics	PH	Automne	7
+38
+	PHYS-207C	Physique générale : quantique	PH	Printemps	4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Liste des cours UNIL-HEC approuvés (liste non-exhaustive).
+			
+2
+				
+3
+	Crédits autorisés : 12 ECTS.
+4
+	Tous les cours UNIL-HEC doivent faire l'objet d'une demande auprès de la section, même s'ils sont listés ci-dessous
+5
+	Pour s'inscrire sur IS-Academia, sélectionnez la rubrique "autre matière" et indiquez Crédits UNIL. Ensuite sélectionnez la Faculté HEC
+6
+	
+La liste est indicative et il se peut que des cours disparaissent ou changent de titre. A vous de vérifiez auprès de l'UNIL
+			
+7
+				
+8
+	Titre du cours	Section	Semestre	Crédits
+9
+	Corporate finance	HEC	Automne	6
+10
+	Dramaturgie pour le monde professionnel	HEC	Automne	3
+11
+	Droit des sociétés	HEC	Automne	6
+12
+	Economics of Health and Healthcare	HEC	Automne	6
+13
+	Essentials and toolbox for future innovators	HEC	Automne	3
+14
+	Financial Markets	HEC	Printemps	6
+15
+	Gestion des ressources humaines	HEC	Automne	3
+16
+	Innovation for Happiness	HEC	Printemps	3
+17
+	Judgment and Decision Making	HEC	Printemps	3
+18
+	Macroéconomie II	HEC	Automne	6
+19
+	Microeconomics II	HEC	Automne	6
+20
+	Organisation Industrielle : L'économie du choix des prix et concurrence	HEC	Automne	6
+21
+	
+Organizational soft-skills : from presentation techniques to group management
+Attention : cours à place limitée !
+	HEC	Automne	3
+22
+	Quantitative Macroeconomics	HEC	Automne	3
+23
+	Statistics and Econometrics II	HEC	Printemps	6
+24
+	Cours ne pouvant pas être pris à l'UNIL-HEC	Raison
+25
+	Analyse économique : macroéconomie 	cours non ouvert aux étudiants EPFL
+26
+	Analyse économique : microéconomie	cours non ouvert aux étudiants EPFL
+27
+	Armée suisse : stage de formation et service pratique pour sous-officier supérieur et officier	stage non ouvert aux étuidants EPFL
+28
+	Artificial Intelligence in Business	cours dans ce domaine déjà disponible dans les PE IC
+29
+	Gestion de projets	cours non ouvert aux étudiants EPFL
+30
+	Gestion des opérations	cours non ouvert aux étudiants EPFL
+31
+	Introduction à la logique	cours non ouvert aux étudiants EPFL
+32
+	Marketing Game	cours non ouvert aux étudiants EPFL
+33
+	Principes de finance	cours non ouvert aux étudiants EPFL
+34
+	Principles de marketing	cours non ouvert aux étudiants EPFL
+35
+	Risk management 	cours non ouvert aux étudiants EPFL
+36
+	Statistique et économétrie I 	cours non ouvert aux étudiants EPFL
+37
+	Systèmes d'information 	cours non ouvert aux étudiants EPFL
+
+
+
+
+
+
+
+
+
+    Liste des cours Master IC approuvés (liste non-exhaustive)
+				
+2
+					
+3
+	Crédits autorisés : 12 ECTS.
+4
+	Les cours listés ci-dessous n'ont pas besoin d'obtenir l'accord préalable de l'enseignant·e, ceci ayant déjà été fait par la section.	
+5
+	D'autres cours Master IC à 6 crédits, c'est-à-dire codifiés CS ou COM peuvent être proposés, mais dans ce cas, il faut transmettre à la section l'approbation préalable de l'enseignant·e	
+6
+					
+7
+	
+Code du cours
+	Titre	Semestre	Crédits	
+8
+	CS-420	Advanced compiler construction 	Printemps	6	
+9
+	CS-442	Computer vision	Printemps	6	
+10
+	CS-453	Concurrent computing	Automne	6	
+11
+	COM-480	Data visualization	Printemps	6	
+12
+	CS-479 	Learning neural networks	Printemps	6	
+13
+	CS-473	Systems programming for Systems-on-Chip	Automne	6	
+14
+	CS-486	Interaction design	Printemps	6	
+15
+	COM-502	Dynamical system theory for enginers (pas donné en 25-26)	Printemps	6	

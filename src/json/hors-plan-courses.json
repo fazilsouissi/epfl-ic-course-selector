@@ -1,0 +1,426 @@
+{
+    "Neuroscience": {
+        "language": "FR",
+        "season": "Fall",
+        "credits": "4",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Randomness and information in biological data": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "4",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Biochimie": {
+        "language": "FR",
+        "season": "Fall",
+        "credits": "3",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Analyse matricielle": {
+        "language": "FR",
+        "season": "Spring",
+        "credits": "4",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Electroacoustique": {
+        "language": "FR",
+        "season": "Fall",
+        "credits": "3",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Lab on hardware-software digital systems codesign": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "3",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Aménagement et gestion du territoire": {
+        "language": "FR",
+        "season": "Spring",
+        "credits": "3",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Systèmes d'Information Géographique (SIG)": {
+        "language": "FR",
+        "season": "Spring",
+        "credits": "5",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Télédétection": {
+        "language": "FR",
+        "season": "Spring",
+        "credits": "3",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Advanced numerical analysis II": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "5",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Numerical analysis (Fall)": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "3",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Numerical analysis (Spring)": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "4",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Number theory I.c - Combinatorial number theory": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "5",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Discrete optimization": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "5",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Graph theory": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "5",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Number theory I.b - Analytic number theory": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "5",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Linear models": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "5",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Logique mathématique": {
+        "language": "FR",
+        "season": "Fall",
+        "credits": "5",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Topologie I - topologie générale": {
+        "language": "FR",
+        "season": "Fall",
+        "credits": "5",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Statistique": {
+        "language": "FR",
+        "season": "Spring",
+        "credits": "5",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Algebra II - groups": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "5",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Time series": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "5",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Causal thinking": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "5",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Automatique et commande numérique": {
+        "language": "FR",
+        "season": "Fall",
+        "credits": "6",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Dynamical systems": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "3",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Microinformatique (pour GM)": {
+        "language": "FR",
+        "season": "Spring",
+        "credits": "4",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Innosuisse Business Concept": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "4",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Microcontrôleurs": {
+        "language": "FR",
+        "season": "Spring",
+        "credits": "3",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Biologie pour ingénieurs": {
+        "language": "FR",
+        "season": "Spring",
+        "credits": "2",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Classical electrodynamics": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "7",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Physique générale : quantique": {
+        "language": "FR",
+        "season": "Spring",
+        "credits": "4",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Autre section"
+    },
+    "Corporate finance": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "6",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "HEC"
+    },
+    "Dramaturgie pour le monde professionnel": {
+        "language": "FR",
+        "season": "Fall",
+        "credits": "3",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "HEC"
+    },
+    "Droit des sociétés": {
+        "language": "FR",
+        "season": "Fall",
+        "credits": "6",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "HEC"
+    },
+    "Economics of Health and Healthcare": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "6",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "HEC"
+    },
+    "Essentials and toolbox for future innovators": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "3",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "HEC"
+    },
+    "Financial Markets": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "6",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "HEC"
+    },
+    "Gestion des ressources humaines": {
+        "language": "FR",
+        "season": "Fall",
+        "credits": "3",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "HEC"
+    },
+    "Innovation for Happiness": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "3",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "HEC"
+    },
+    "Judgment and Decision Making": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "3",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "HEC"
+    },
+    "Macroéconomie II": {
+        "language": "FR",
+        "season": "Fall",
+        "credits": "6",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "HEC"
+    },
+    "Microeconomics II": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "6",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "HEC"
+    },
+    "Organisation Industrielle": {
+        "language": "FR",
+        "season": "Fall",
+        "credits": "6",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "HEC"
+    },
+    "Organizational soft-skills": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "3",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "HEC"
+    },
+    "Quantitative Macroeconomics": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "3",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "HEC"
+    },
+    "Statistics and Econometrics II": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "6",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "HEC"
+    },
+    "Advanced compiler construction": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "6",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Master IC"
+    },
+    "Computer vision": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "6",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Master IC"
+    },
+    "Concurrent computing": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "6",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Master IC"
+    },
+    "Data visualization": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "6",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Master IC"
+    },
+    "Learning neural networks": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "6",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Master IC"
+    },
+    "Systems programming for Systems-on-Chip": {
+        "language": "EN",
+        "season": "Fall",
+        "credits": "6",
+        "ba": 5,
+        "block": "Hors-plan",
+        "category": "Master IC"
+    },
+    "Interaction design": {
+        "language": "EN",
+        "season": "Spring",
+        "credits": "6",
+        "ba": 6,
+        "block": "Hors-plan",
+        "category": "Master IC"
+    }
+}

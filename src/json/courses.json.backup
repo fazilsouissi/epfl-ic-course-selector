@@ -1,0 +1,361 @@
+{
+  "Algorithms I": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "8",
+    "ba": 4,
+    "ba_secondary": 6,
+    "block": "Bloc A"
+  },
+  "Analysis III (for IC)": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "6",
+    "ba": 3,
+    "ba_secondary": 5,
+    "block": "Bloc A"
+  },
+  "Software construction": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "8",
+    "ba": 3,
+    "ba_secondary": 5,
+    "block": "Bloc A"
+  },
+  "Computer architecture": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "8",
+    "ba": 3,
+    "ba_secondary": 5,
+    "block": "Bloc B"
+  },
+  "Computer systems": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "8",
+    "ba": 4,
+    "ba_secondary": 6,
+    "block": "Bloc B"
+  },
+  "Probability and statistics (for IC)": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "6",
+    "ba": 3,
+    "ba_secondary": 5,
+    "block": "Bloc B"
+  },
+  "Computer security and privacy": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "6",
+    "ba": 5,
+    "block": "Bloc C"
+  },
+  "Data-intensive systems": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 6,
+    "block": "Bloc C"
+  },
+  "Theory of computation": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 6,
+    "block": "Bloc C"
+  },
+  "SHS + MGT : Cycle Bachelor BA3": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "2",
+    "ba": 3,
+    "ba_secondary": 5,
+    "block" : "Bloc transversal SHS"
+  },
+  "SHS + MGT : Cycle Bachelor BA4": {
+    "language": "FR",
+    "season": "Spring",
+    "credits": "2",
+    "ba": 4,
+    "ba_secondary": 6,
+    "block" : "Bloc transversal SHS"
+  },
+  "SHS + MGT : Cycle Bachelor BA5": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "2",
+    "ba": 5,
+    "block" : "Bloc transversal SHS"
+  },
+  "SHS + MGT : Cycle Bachelor BA6": {
+    "language": "FR",
+    "season": "Spring",
+    "credits": "2",
+    "ba": 6,
+    "block" : "Bloc transversal SHS"
+  },
+  "Algebra": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "4",
+    "ba": 3,
+    "ba_secondary": 5,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Analysis IV": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "4",
+    "ba": 4,
+    "ba_secondary": 6,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Communications project": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "8",
+    "ba": 6,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Computer graphics": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 4,
+    "ba_secondary": 6,
+    "block": "Groupe \"Cours à option\""
+
+  },
+  "Computer language processing": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 6,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Electromagnétisme I : lignes et ondes": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "3",
+    "ba": 5,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Digital IC design": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "3",
+    "ba": 6,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Electromagnétisme II : calcul des champs": {
+    "language": "FR",
+    "season": "Spring",
+    "credits": "3",
+    "ba": 6,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Electronique I": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "4",
+    "ba": 3,
+    "ba_secondary": 5,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Electronique II (pour IC)": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "4",
+    "ba": 5,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Intelligent systems: communications & AI": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "8",
+    "ba": 6,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Intelligence artificielle": {
+    "language": "FR",
+    "season": "Spring",
+    "credits": "4",
+    "ba": 6,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Interaction personne-système": {
+    "language": "FR",
+    "season": "Spring",
+    "credits": "5",
+    "ba": 4,
+    "ba_secondary": 6,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Internet analytics": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 6,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Introduction to machine learning": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 4,
+    "ba_secondary": 6,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Introduction to quantum computation": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "5",
+    "ba": 6,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Introduction to quantum information processing": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "5",
+    "ba": 5,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Modèles stochastiques pour les communications": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "6",
+    "ba": 5,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Numerical methods for visual computing and ML": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "4",
+    "ba": 3,
+    "ba_secondary": 5,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Parallelism and concurrency in software": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 6,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Principles of online decision-making": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "6",
+    "ba": 5,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Principles of digital communications": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 6,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Projet de recherche optionnel en Informatique I": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "8",
+    "ba": 5,
+    "ba_secondary": 6,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Responsible software": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "5",
+    "ba": 3,
+    "ba_secondary": 5,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Signal processing": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "8",
+    "ba": 4,
+    "ba_secondary": 6,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Systèmes embarqués microprogrammés": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "4",
+    "ba": 5,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Technologies for democratic society": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "5",
+    "ba": 3,
+    "ba_secondary": 5,
+    "block": "Groupe \"Cours à option\""
+  },
+  "Introduction aux sciences du vivant (pour IC)": {
+    "language": "FR",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 4,
+    "ba_secondary": 6,
+    "block": "Groupe \"Physique/Bio\""
+  },
+  "Mécanique analytique (pour SPH)": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "5",
+    "ba": 3,
+    "ba_secondary": 5,
+    "block": "Groupe \"Physique/Bio\""
+  },
+  "Neuroscience foundations for engineers": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 6,
+    "block": "Groupe \"Physique/Bio\""
+  },
+  "Physique générale : électromagnétisme": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "4",
+    "ba": 3,
+    "ba_secondary": 5,
+    "block": "Groupe \"Physique/Bio\""
+  },
+  "Quantum mechanics for non-physicists": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "5",
+    "ba": 5,
+    "block": "Groupe \"Physique/Bio\""
+  },
+  "Making intelligent things A": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "8",
+    "ba": 5,
+    "block": "Groupe I \"projet\""
+  },
+  "Making intelligent things B": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "8",
+    "ba": 6,
+    "block": "Groupe I \"projet\""
+  },
+  "The software enterprise - from ideas to products": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "8",
+    "ba": 5,
+    "block": "Groupe I \"projet\""
+  }
+}

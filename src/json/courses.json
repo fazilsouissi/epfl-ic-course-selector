@@ -1,0 +1,338 @@
+{
+  "Algorithms I": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "8",
+    "ba": 4,
+    "block": "A"
+  },
+  "Analysis III (for IC)": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "6",
+    "ba": 3,
+    "block": "A"
+  },
+  "Software construction": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "8",
+    "ba": 3,
+    "block": "A"
+  },
+  "Computer architecture": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "8",
+    "ba": 3,
+    "block": "B"
+  },
+  "Computer systems": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "8",
+    "ba": 4,
+    "block": "B"
+  },
+  "Probability and statistics (for IC)": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "6",
+    "ba": 3,
+    "block": "B"
+  },
+  "Computer security and privacy": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "6",
+    "ba": 5,
+    "block": "C"
+  },
+  "Data-intensive systems": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 6,
+    "block": "C"
+  },
+  "Theory of computation": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 6,
+    "block": "C"
+  },
+  "Algebra": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "4",
+    "ba": 3,
+    "block": "Options"
+  },
+  "Analysis IV": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "4",
+    "ba": 4,
+    "block": "Options"
+  },
+  "Computer graphics": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 4,
+    "block": "Options"
+  },
+  "Computer language processing": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 6,
+    "block": "Options"
+  },
+  "Digital IC design": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "3",
+    "ba": 6,
+    "block": "Options"
+  },
+  "Electromagnétisme I : lignes et ondes": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "3",
+    "ba": 5,
+    "block": "Options"
+  },
+  "Electromagnétisme II : calcul des champs": {
+    "language": "FR",
+    "season": "Spring",
+    "credits": "3",
+    "ba": 6,
+    "block": "Options"
+  },
+  "Electronique I": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "4",
+    "ba": 3,
+    "block": "Options"
+  },
+  "Electronique II (pour IC)": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "4",
+    "ba": 5,
+    "block": "Options"
+  },
+  "Intelligent systems: communications & AI": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "8",
+    "ba": 6,
+    "block": "Options"
+  },
+  "Internet analytics": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 6,
+    "block": "Options"
+  },
+  "Introduction to machine learning": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 4,
+    "block": "Options"
+  },
+  "Introduction to quantum computation": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "5",
+    "ba": 6,
+    "block": "Options"
+  },
+  "Introduction to quantum information processing": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "5",
+    "ba": 5,
+    "block": "Options"
+  },
+  "Numerical methods for visual computing and ML": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "4",
+    "ba": 3,
+    "block": "Options"
+  },
+  "Parallelism and concurrency in software": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 6,
+    "block": "Options"
+  },
+  "Principles of digital communications": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 6,
+    "block": "Options"
+  },
+  "Principles of online decision-making": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "6",
+    "ba": 5,
+    "block": "Options"
+  },
+  "Projet de recherche optionnel en Informatique I": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "8",
+    "ba": 5,
+    "block": "Options"
+  },
+  "Responsible software": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "5",
+    "ba": 3,
+    "block": "Options"
+  },
+  "Signal processing": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "8",
+    "ba": 4,
+    "block": "Options"
+  },
+  "Modèles stochastiques pour les communications": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "6",
+    "ba": 5,
+    "block": "Options"
+  },
+  "Technologies for democratic society": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "5",
+    "ba": 3,
+    "block": "Options"
+  },
+  "Systèmes embarqués microprogrammés": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "4",
+    "ba": 5,
+    "block": "Options"
+  },
+  "Intelligence artificielle": {
+    "language": "FR",
+    "season": "Spring",
+    "credits": "4",
+    "ba": 6,
+    "block": "Options"
+  },
+  "Interaction personne-système": {
+    "language": "FR",
+    "season": "Spring",
+    "credits": "5",
+    "ba": 4,
+    "block": "Options"
+  },
+  "Communications project": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "8",
+    "ba": 4,
+    "block": "Project"
+  },
+  "Mécanique analytique (pour SPH)": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "5",
+    "ba": 3,
+    "block": "Physics/Bio"
+  },
+  "Physique générale : électromagnétisme": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "4",
+    "ba": 3,
+    "block": "Physics/Bio"
+  },
+  "Introduction aux sciences du vivant (pour IC)": {
+    "language": "FR",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 4,
+    "block": "Physics/Bio"
+  },
+  "Neuroscience foundations for engineers": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "6",
+    "ba": 6,
+    "block": "Physics/Bio"
+  },
+  "Quantum mechanics for non-physicists": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "5",
+    "ba": 5,
+    "block": "Physics/Bio"
+  },
+  "Making intelligent things A": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "8",
+    "ba": 5,
+    "block": "Project"
+  },
+  "Making intelligent things B": {
+    "language": "EN",
+    "season": "Spring",
+    "credits": "8",
+    "ba": 6,
+    "block": "Project"
+  },
+  "The software enterprise - from ideas to products": {
+    "language": "EN",
+    "season": "Fall",
+    "credits": "8",
+    "ba": 5,
+    "block": "Project"
+  },
+  "SHS + MGT : Cycle Bachelor BA3": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "2",
+    "ba": 3,
+    "block": "SHS"
+  },
+  "SHS + MGT : Cycle Bachelor BA4": {
+    "language": "FR",
+    "season": "Spring",
+    "credits": "2",
+    "ba": 4,
+    "block": "SHS"
+  },
+  "SHS + MGT : Cycle Bachelor BA5": {
+    "language": "FR",
+    "season": "Fall",
+    "credits": "2",
+    "ba": 5,
+    "block": "SHS"
+  },
+  "SHS + MGT : Cycle Bachelor BA6": {
+    "language": "FR",
+    "season": "Spring",
+    "credits": "2",
+    "ba": 6,
+    "block": "SHS"
+  }
+}
