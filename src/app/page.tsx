@@ -55,7 +55,7 @@ export default function Home() {
   // Initialize from URL or localStorage on mount
   useEffect(() => {
     const coursesParam = searchParams.get('courses')
-    
+
     if (coursesParam) {
       // Load from URL
       try {
@@ -77,7 +77,7 @@ export default function Home() {
         setSharedCourses(localSavedCourses)
       }
     }
-    
+
     const localSortBy = getLocalSortBy()
     setSortBy([localSortBy])
     setIsInitialized(true)
@@ -86,10 +86,10 @@ export default function Home() {
   // Update URL and complementary courses when shared courses change
   useEffect(() => {
     if (!isInitialized) return
-    
+
     // Save the sharedCourses in the local storage
     localStorage.setItem('sharedCourses', JSON.stringify(sharedCourses))
-    
+
     // Update URL
     if (Object.keys(sharedCourses).length > 0) {
       const encoded = encodeURIComponent(JSON.stringify(sharedCourses))
