@@ -12,12 +12,52 @@ import ExploreListModal from '@/components/ExploreListModal'
 import coursesData from '@/json/courses.json'
 import horsPlanCoursesData from '@/json/hors-plan-courses.json'
 import { useTheme } from '@/context/ThemeContext'
+import LZString from 'lz-string'
 
 interface CourseInfo {
   credits: string | number
   ba?: string | number
   season: string
   block?: string
+}
+
+const hydrateCourses = (data: any): Record<string, CourseInfo> => {
+  const hydrated: Record<string, CourseInfo> = {}
+  const allCourses: any = { ...coursesData, ...horsPlanCoursesData }
+
+  Object.entries(data).forEach(([key, value]) => {
+    if (typeof value === 'number') {
+      // Simplified format: key is course name, value is BA
+      if (allCourses[key]) {
+        hydrated[key] = {
+          ...allCourses[key],
+          ba: value
+        }
+      } else {
+        hydrated[key] = {
+          credits: 0,
+          season: 'Unknown',
+          block: 'Unknown',
+          ba: value
+        }
+      }
+    } else {
+      // Legacy format
+      hydrated[key] = value as CourseInfo
+    }
+  })
+
+  return hydrated
+}
+
+const simplifyCourses = (courses: Record<string, CourseInfo>): Record<string, number> => {
+  const simple: Record<string, number> = {}
+  Object.entries(courses).forEach(([name, info]) => {
+    if (info.ba !== undefined) {
+      simple[name] = Number(info.ba)
+    }
+  })
+  return simple
 }
 
 // Get shared courses from local storage
@@ -59,9 +99,19 @@ function HomeContent() {
     if (coursesParam) {
       // Load from URL
       try {
-        const decoded = decodeURIComponent(coursesParam)
-        const coursesFromURL = JSON.parse(decoded)
-        setSharedCourses(coursesFromURL)
+        let coursesFromURL
+        // Try to decompress first
+        const decompressed = LZString.decompressFromEncodedURIComponent(coursesParam)
+
+        if (decompressed) {
+          coursesFromURL = JSON.parse(decompressed)
+        } else {
+          // Fallback to legacy (uncompressed) format
+          const decoded = decodeURIComponent(coursesParam)
+          coursesFromURL = JSON.parse(decoded)
+        }
+
+        setSharedCourses(hydrateCourses(coursesFromURL))
       } catch (error) {
         console.error('Failed to parse courses from URL:', error)
         // Fallback to localStorage
@@ -92,8 +142,9 @@ function HomeContent() {
 
     // Update URL
     if (Object.keys(sharedCourses).length > 0) {
-      const encoded = encodeURIComponent(JSON.stringify(sharedCourses))
-      router.replace(`?courses=${encoded}`, { scroll: false })
+      const simplified = simplifyCourses(sharedCourses)
+      const compressed = LZString.compressToEncodedURIComponent(JSON.stringify(simplified))
+      router.replace(`?courses=${compressed}`, { scroll: false })
     } else {
       router.replace('/', { scroll: false })
     }

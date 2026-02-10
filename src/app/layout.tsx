@@ -16,7 +16,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "EPFL IC Course Selector",
-  description: "Select your courses for EPFL IC",
+  description: "Select your courses for EPFL IC made by Fazil",
+  icons: {
+    icon: "https://www.epfl.ch/favicon.ico",
+    apple: "https://www.epfl.ch/wp-content/themes/wp-theme-2018/assets/favicons/apple-touch-icon.png",
+  }
 };
 
 export default function RootLayout({
