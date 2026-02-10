@@ -9,7 +9,7 @@ import {
   DialogTitle,
 } from './ui/dialog'
 
-export default function ImportExportModal({ isOpen, onClose, type, content = '', onConfirm }) {
+export default function ImportExportModal({ isOpen, onClose, type, content = '', onConfirm, onImport }) {
   const [inputContent, setInputContent] = useState('')
   const [copied, setCopied] = useState(false)
 
@@ -23,8 +23,11 @@ export default function ImportExportModal({ isOpen, onClose, type, content = '',
 
   const handleConfirm = () => {
     if (inputContent.trim()) {
-      onConfirm(inputContent)
-      setInputContent('')
+      const callback = onImport || onConfirm
+      if (callback) {
+        callback(inputContent)
+        setInputContent('')
+      }
     }
   }
 

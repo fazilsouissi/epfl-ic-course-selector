@@ -1,9 +1,9 @@
 import ThemeSwitcher from "./ThemeSwitcher";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
 import { Button } from "./ui/button";
-import { Plus, Download, Upload, FileText } from "lucide-react";
+import { Plus, Download, Upload, FileText, Share2 } from "lucide-react";
 
-const Header = ({sumOfCredits, sortBy, setSortBy, onAutoPlace, onExport, onImport, onExplore}) => {
+const Header = ({sumOfCredits, sortBy, setSortBy, onAutoPlace, onExport, onImport, onExplore, onShare}) => {
   
   const handleSortChange = (value) => {
     setSortBy([value]);
@@ -41,6 +41,15 @@ const Header = ({sumOfCredits, sortBy, setSortBy, onAutoPlace, onExport, onImpor
           >
             <Plus className="h-3.5 w-3.5" />
             Ajouter cours obligatoires
+          </Button>
+          <Button
+            onClick={onShare}
+            size="sm"
+            variant="outline"
+            className="h-8 text-xs gap-1.5"
+            title="Partager votre sélection"
+          >
+            <Share2 className="h-3.5 w-3.5" />
           </Button>
           <Button
             onClick={onExport}

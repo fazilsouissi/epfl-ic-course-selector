@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { useSearchParams, useRouter } from 'next/navigation'
 
 import CourseForm from '@/components/CourseForm'
 import CourseColumn from '@/components/CourseColumn'
@@ -35,6 +36,8 @@ const getLocalSortBy = (): string => {
 
 export default function Home() {
   const { layout } = useTheme()
+  const searchParams = useSearchParams()
+  const router = useRouter()
 
   const [selectedTags, setSelectedTags] = useState<string[]>([])
   const [sortBy, setSortBy] = useState<string[]>(['Sort by Credits'])
@@ -47,22 +50,53 @@ export default function Home() {
   const [showImportModal, setShowImportModal] = useState(false)
   const [showExploreModal, setShowExploreModal] = useState(false)
   const [exportedJSON, setExportedJSON] = useState('')
+  const [isInitialized, setIsInitialized] = useState(false)
 
-  // Initialize from localStorage on mount
+  // Initialize from URL or localStorage on mount
   useEffect(() => {
-    const localSavedCourses = getLocalSavedCourses()
-    const localSortBy = getLocalSortBy()
-
-    if (localSavedCourses) {
-      setSharedCourses(localSavedCourses)
+    const coursesParam = searchParams.get('courses')
+    
+    if (coursesParam) {
+      // Load from URL
+      try {
+        const decoded = decodeURIComponent(coursesParam)
+        const coursesFromURL = JSON.parse(decoded)
+        setSharedCourses(coursesFromURL)
+      } catch (error) {
+        console.error('Failed to parse courses from URL:', error)
+        // Fallback to localStorage
+        const localSavedCourses = getLocalSavedCourses()
+        if (localSavedCourses) {
+          setSharedCourses(localSavedCourses)
+        }
+      }
+    } else {
+      // Load from localStorage
+      const localSavedCourses = getLocalSavedCourses()
+      if (localSavedCourses) {
+        setSharedCourses(localSavedCourses)
+      }
     }
+    
+    const localSortBy = getLocalSortBy()
     setSortBy([localSortBy])
+    setIsInitialized(true)
   }, [])
 
-  // Update complementary courses when shared courses change
+  // Update URL and complementary courses when shared courses change
   useEffect(() => {
+    if (!isInitialized) return
+    
     // Save the sharedCourses in the local storage
     localStorage.setItem('sharedCourses', JSON.stringify(sharedCourses))
+    
+    // Update URL
+    if (Object.keys(sharedCourses).length > 0) {
+      const encoded = encodeURIComponent(JSON.stringify(sharedCourses))
+      router.replace(`?courses=${encoded}`, { scroll: false })
+    } else {
+      router.replace('/', { scroll: false })
+    }
 
     // Merge coursesData with horsPlanCoursesData if includeHorsPlan is true
     const allCourses = includeHorsPlan
@@ -81,7 +115,7 @@ export default function Home() {
       )
 
     setComplementarySharedCourses(complementaryCourses)
-  }, [sharedCourses, includeHorsPlan])
+  }, [sharedCourses, includeHorsPlan, isInitialized, router])
 
   const getSumOfCredits = () => {
     return Object.values(sharedCourses).reduce((acc, course) => acc + Number(course.credits), 0)
@@ -137,6 +171,16 @@ export default function Home() {
 
   const handleExploreList = () => {
     setShowExploreModal(true)
+  }
+
+  const handleShare = async () => {
+    const url = window.location.href
+    try {
+      await navigator.clipboard.writeText(url)
+      alert('Lien copié! Partagez-le pour montrer votre sélection de cours.')
+    } catch (error) {
+      console.error('Failed to copy URL:', error)
+    }
   }
 
   // Layout-specific classes
@@ -205,6 +249,7 @@ export default function Home() {
         onExport={handleExportConfiguration}
         onImport={handleImportConfiguration}
         onExplore={handleExploreList}
+        onShare={handleShare}
       />
 
       {showExportModal && (
